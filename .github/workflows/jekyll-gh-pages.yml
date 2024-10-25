@@ -16,4 +16,4 @@ jobs:
       with:
         username: 'AlinaAkimova'
         reponame: 'invitation'
-        token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+        token: ${{ secrets.ALINA_TOKEN }} # Leave this line unchanged

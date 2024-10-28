@@ -13,8 +13,6 @@ jobs:
         cache: "npm"
     - id: Build-Vue
       uses: SerhiiKa/VuePagesAction@1.0.4
-      env:
-          GH_TOKEN: AVXZ6JXY3MZWKS7JDMUHODDHD6SR6
       with:
         username: 'AlinaAkimova'
         reponame: 'invitation'

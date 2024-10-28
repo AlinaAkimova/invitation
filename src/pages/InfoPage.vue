@@ -1,10 +1,10 @@
 <template>
     <div class="info-page">
         <div class="info-page__age">
-            <img loading="lazy" src="@/assets/img/hat.png" alt="hat" class="info-page__hat" />
+            <img loading="lazy" src="@/assets/img/hat.webp" alt="hat" class="info-page__hat" />
             <img loading="lazy" src="@/assets/img/me.webp" alt="me" class="info-page__me" />
-            <img loading="lazy" src="@/assets/img/disco.png" alt="disco" class="info-page__disco" />
-            <img loading="lazy" src="@/assets/img/fire.png" alt="fire" class="info-page__fire" />
+            <img loading="lazy" src="@/assets/img/disco.webp" alt="disco" class="info-page__disco" />
+            <img loading="lazy" src="@/assets/img/fire.webp" alt="fire" class="info-page__fire" />
             <h2 class="info-page__title">ОГО! <br /> 23 ГОДА!</h2>
         </div>
         <h2 class="info-page__title">ПОДРОБНОСТИ</h2>
@@ -46,8 +46,8 @@
     font-family: 'Arista Pro Alternate', sans-serif;
     background: url('@/assets/img/pink-cells-bg.jpg');
     border-radius: 20px;
-    padding: 30px;
-    margin: 30px;
+    padding: 20px;
+    margin: 20px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -131,6 +131,7 @@
         font-size: 16px;
         border-radius: 16px;
         min-width: 100%;
+        color: black;
     }
 }
 </style>

@@ -53,6 +53,7 @@
     <ul class="info-page__details">
       <li>Берем с собой купальник, сланцы и полотенце не очень маленькое</li>
       <li>Берем с собой всё, что необходимо для ночевки</li>
+      <li>Убедительная просьба поесть перед поездкой, а то пока мы доберемся до шашлыков, мы съедим друг друга</li>
       <li>
         Мы будем проводить время и на улице (собираемся гулять по лесу, возможен
         дождь!! кто виноват, что я родилась в ноябре), и в домике, одевайся,
@@ -91,7 +92,8 @@ const openModal = () => {
 <style lang="scss">
 .info-page {
   font-family: "Arista Pro Alternate", sans-serif;
-  background: url("@/assets/img/pink-cells-bg.jpg");
+  background: url("@/assets/img/green-cells-bg.jpg");
+  background-size: 260%;
   border-radius: 20px;
   padding: 20px;
   margin: 20px;
@@ -115,7 +117,7 @@ const openModal = () => {
     position: absolute;
     max-width: 50px;
     max-height: 50px;
-    left: 27%;
+    left: 29%;
     top: 0;
     transform: rotate(8deg);
     z-index: 2;
@@ -147,7 +149,7 @@ const openModal = () => {
 
   &__title {
     font-family: "Arista Pro Alternate", system-ui;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 30px;
   }
 

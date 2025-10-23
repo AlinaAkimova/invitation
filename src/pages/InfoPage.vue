@@ -92,8 +92,8 @@ const openModal = () => {
 <style lang="scss">
 .info-page {
   font-family: "Arista Pro Alternate", sans-serif;
-  background: url("@/assets/img/green-cells-bg.jpg");
-  background-size: 260%;
+  background: url("@/assets/img/light-green-cells.jpg");
+  background-size: 70%;
   border-radius: 20px;
   padding: 20px;
   margin: 20px;
